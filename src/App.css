@@ -1,12 +1,7 @@
 html, body {
-  background-color: #0A0A0C;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-}
-
-.App{
-  color: #f3f4f6
 }
 
 main{
@@ -22,9 +17,147 @@ main{
   margin: 0 auto;
 }
 
+/* About Me Section - Terminal */
+#about {
+  padding-top: 5vh;
+  height: 820px;
+  margin-top: 0px;
+}
+
+#code {
+  border-radius: 5px;
+  width: 670px;
+  margin: 0 auto;
+  padding-top: 15px;
+  font-size: 30px;
+  height: 600px;
+  font-family: 'Monaco', 'Courier New';
+  text-align: left;
+  font-size: 13px;
+  background: #ccc;
+}
+
+#console {
+  padding: 40px;
+  height: 600px;
+  margin: 0 auto;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: #f1f1f1;
+}
+@keyframes cursor {
+    50% {border-color:transparent}
+}
+
+#end{
+    display: inline;
+    padding-right: 5px;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        cursor .4s step-end infinite alternate;
+}
+/* Nav Bar */
+.toggle-button {
+  background: none;
+  border: 2px solid currentColor;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 1rem;
+  transition: all 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Skills */
+.skill-box {
+  width: 260px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.skill-info {
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.skill-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.skill-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.skill-description {
+  margin: 0;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  height: 45px;
+}
+
+.allSkills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* spacing between items */
+  justify-content: center; /* or 'space-evenly', 'flex-start', etc. */
+}
+
+/* Dark/Light mode specific CSS */
+body.light-mode {
+  background-color: rgb(235, 232, 230);
+  color: #222;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #f1f1f1;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode button {
+  color: #f1f1f1;
+}
+
+body.dark-mode #console {
+  background: #383737;
+}
+
+body.light-mode .skill-box {
+  background-color: #ffffff;
+}
+
+body.dark-mode .skill-box {
+  background-color: #000000;
+}
+
 /* Mobile view */
 @media (max-width: 768px) {
   .responsive-div {
     width: 95vw;
+  }
+  #code, #console {
+    width: 100%;
+    overflow: hidden;
   }
 }

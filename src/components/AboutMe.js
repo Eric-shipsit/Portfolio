@@ -3,7 +3,7 @@ import React from 'react';
 import Input from './Input';
 import Output from './Output';
 import SubOutput from './SubOutput';
-import './AboutMe.css';
+import '../App.css';
 
 export default function AboutMe() {
   return (
