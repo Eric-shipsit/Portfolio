@@ -1,0 +1,26 @@
+.entry{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.date{
+    width: 30%;
+}
+
+.info {
+    width: 70%;
+}
+
+/* Mobile view: stack vertically */
+@media (max-width: 900px) {
+    .entry {
+      flex-direction: column;
+    }
+  
+    .date,
+    .info {
+      width: 100%;
+    }
+  }

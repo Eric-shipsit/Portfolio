@@ -1,0 +1,84 @@
+#about {
+    padding-top: 5vh;
+    height: 820px;
+    margin-top: 0px;
+}
+
+#about a {
+    color: #3a92c8;
+    text-decoration: none;
+  }
+
+#about p {
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.3em;
+    font-weight: 700;
+    color: #fafafa;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+  
+#code {
+    /*  margin-top:150px;*/
+    border-radius: 5px;
+    width: 670px;
+    margin: 0 auto;
+    padding-top:15px;
+    font-size:30px;
+    background: #ccc;
+    height: 600px;
+    font-family: 'Monaco', 'Courier New';
+    text-align: left;
+    font-size:13px;
+    color: #fafafa;
+}
+#console {
+    padding: 40px;
+    height: 600px;
+    margin: 0 auto;
+    background: #383737;
+    
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+span.answer {
+    color:#ccc;
+}
+  
+#end{
+    display: inline;
+    padding-right: 5px;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+    50% {border-color:transparent}
+}
+  
+@media screen and (max-width:900px) {
+#code, #console {
+    width: 100%;
+    overflow: hidden;
+}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+#about .inner {
+    padding: 0px 10px 0px 10px;
+}
+#code, #console {
+    height:auto;
+}
+#console {
+    padding: 20px;
+}
+
+#code {
+    margin-bottom: 20px;
+}
+}
