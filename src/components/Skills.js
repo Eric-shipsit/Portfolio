@@ -10,6 +10,7 @@ export default function Skills() {
     <section className="skills">
       <div>
         <h2>My Skills</h2>
+        <hr/>
         <div className='allSkills'>
           <MySkill skill={"aws"} name={"AWS"} info={"Cloud platform"} darkMode={darkMode}/>
           <MySkill skill={"css"} name={"CSS"} info={"Web styling language"} />

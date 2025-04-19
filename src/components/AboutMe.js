@@ -10,8 +10,11 @@ export default function AboutMe() {
     <section className="about-me">
         <div class = "aboutMe">
             <div id="about">
-            <div><h2>About Eric</h2></div>
-                <div class="inner">
+                <div>
+                    <h2>About Eric</h2>
+                    <hr />
+                </div>
+                <div className="inner">
                     <div id="code">
                         <div id="console">
                             <Input text="name"/>

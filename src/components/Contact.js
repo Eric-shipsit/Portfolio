@@ -12,8 +12,9 @@ export default function Contact() {
       <div>
         <div>
           <h2>Contact</h2>
+          <hr/>
         </div>
-        <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', width: '100%'}}>
+        <div >
           The best way to reach me is via email at: 
           <a href="mailto: ericl.swe@gmail.com" className='email-link'>ericl.swe@gmail.com</a>.
           Alternatively, feel free to message me on any of the following platforms.

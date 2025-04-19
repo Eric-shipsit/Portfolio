@@ -19,6 +19,10 @@ main{
 }
 
 /* About Me Section - Terminal */
+.inner {
+  margin-top: 30px;
+}
+
 #about {
   padding-top: 5vh;
   height: 820px;
@@ -119,8 +123,9 @@ main{
 .allSkills {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem; /* spacing between items */
-  justify-content: center; /* or 'space-evenly', 'flex-start', etc. */
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 /* Dark/Light mode specific CSS */

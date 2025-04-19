@@ -8,6 +8,7 @@ export default function Experience() {
       <h2>
         Experience
       </h2>
+      <hr />
       <div>
         <div className='entry'>
           <div className = 'date'>
