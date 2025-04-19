@@ -11,7 +11,7 @@ export default function Experience() {
       <div>
         <div className='entry'>
           <div className = 'date'>
-            February 2022 - February 2024
+            Feb 2022 - Feb 2024
           </div>
           <div className='info'>
             <div className = 'title'>
@@ -27,7 +27,7 @@ export default function Experience() {
         </div>
         <div className='entry'>
           <div className = 'date'>
-            June 2021 - September 2021
+            Jun 2021 - Sep 2021
           </div>
           <div className='info'>
             <div className = 'title'>

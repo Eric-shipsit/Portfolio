@@ -6,7 +6,9 @@ export const ThemeProvider = ({ children }) => {
     // Load darkMode from localStorage, default to null (auto)
     const [darkMode, setDarkMode] = useState(() => {
       const stored = localStorage.getItem('darkMode');
-      return stored === null ? null : JSON.parse(stored); // converts "true"/"false" to boolean
+      const isDark = stored === null ? null : JSON.parse(stored);
+      document.body.className = isDark ? 'dark-mode' : 'light-mode';
+      return isDark; // converts "true"/"false" to boolean
     });
   
     useEffect(() => {

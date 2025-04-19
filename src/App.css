@@ -2,6 +2,7 @@ html, body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
 }
 
 main{
@@ -76,7 +77,7 @@ main{
 
 /* Skills */
 .skill-box {
-  width: 260px;
+  width: 250px;
   display: flex;
   align-items: center;
   border: 1px solid #ddd;
@@ -152,12 +153,15 @@ body.dark-mode .skill-box {
 }
 
 /* Mobile view */
-@media (max-width: 768px) {
+@media (max-width: 860px) {
   .responsive-div {
     width: 95vw;
   }
   #code, #console {
     width: 100%;
     overflow: hidden;
+  }
+  .allSkills {
+    width: 100%;
   }
 }

@@ -6,11 +6,47 @@
 }
 
 .date{
-    width: 30%;
+    width: 25%;
+    text-align: right;
+    padding-right: 50px;
+    font-weight: bold;
+    color: #AAAAAA;
+    font-size: 0.9rem;
 }
 
 .info {
-    width: 70%;
+    width: 75%;
+}
+
+.info .title {
+  
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  margin: 0;
+}
+
+.location {
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 2px;
+}
+.email-link {
+  color: #00bcd4;
+  padding: 5px;
+}
+
+body.dark .email-link {
+  color: #66e0ff;
+}
+
+.icon-bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 /* Mobile view: stack vertically */
