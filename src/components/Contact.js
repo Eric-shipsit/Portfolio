@@ -20,13 +20,13 @@ export default function Contact() {
           Alternatively, feel free to message me on any of the following platforms.
         </div>
         <div className = "icon-bar">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Eric-shipsit/" target="_blank" rel="noopener noreferrer">
             <FaGithub style={iconStyle} />
           </a>
           <a href="mailto:ericl.swe@gmail.com">
             <FaEnvelope style={iconStyle} />
           </a>
-          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/leeminhyuk" target="_blank" rel="noopener noreferrer">
             <FaLinkedin style={iconStyle} />
           </a>
         </div>
