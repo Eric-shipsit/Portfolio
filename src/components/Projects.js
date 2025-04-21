@@ -34,9 +34,8 @@ export default function Projects() {
             Chatroom
           </div>
           <div className = "project-tech">
-          <TechUsed skill={"NodeJS"}/>
           <TechUsed skill={"NextJS"}/>
-          <TechUsed skill={"Firebase"}/>
+          <TechUsed skill={"MongoDB"}/>
           <TechUsed skill={"JavaScript"}/>
           </div>
         </div>
@@ -57,7 +56,7 @@ export default function Projects() {
             <img src="/sorting-project.png" alt="Cartoon Developer" />
           </div>
           <div className='project-name'>
-            Emailer
+            Sorting Visualization
           </div>
           <div className = "project-tech">
           <TechUsed skill={"HTML"}/>
