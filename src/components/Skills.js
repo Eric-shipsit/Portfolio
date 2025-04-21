@@ -21,7 +21,7 @@ export default function Skills() {
           <MySkill skill={"git"} name={"Git"} info={"Version control"} />
           <MySkill skill={"html"} name={"HTML"} info={"Webpage structure language"} />
           <MySkill skill={"java"} name={"Java"} info={"General programming language"} darkMode={darkMode}/>
-          <MySkill skill={"JavaScript"} name={"JavaScript"} info={"Web programming language"}/>
+          <MySkill skill={"javascript"} name={"JavaScript"} info={"Web programming language"}/>
           <MySkill skill={"nodejs"} name={"NodeJS"} info={"JavaScript runtime"} darkMode={darkMode}/>
           <MySkill skill={"postgresql"} name={"PostgreSQL"} info={"Relational database language"} darkMode={darkMode}/>
           <MySkill skill={"python"} name={"Python"} info={"General programming language"} darkMode={darkMode}/>

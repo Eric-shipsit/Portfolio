@@ -13,7 +13,7 @@ export default function Projects() {
       <div className="project-collection">
         <div className = "project-box">
           <div className = "project-image">
-            <img src="/email-project.png" alt="Cartoon Developer" />
+            <img src="/email-project.webp" alt="Cartoon Developer" />
           </div>
           <div className='project-name'>
             Emailer
@@ -28,7 +28,7 @@ export default function Projects() {
         </div>
         <div className = "project-box">
           <div className = "project-image">
-            <img src="/chatroom-project.png" alt="Cartoon Developer" />
+            <img src="/chatroom-project.webp" alt="Cartoon Developer" />
           </div>
           <div className='project-name'>
             Chatroom
@@ -41,7 +41,7 @@ export default function Projects() {
         </div>
         <div className = "project-box">
           <div className = "project-image">
-            <img src="/portfolio-project.png" alt="Cartoon Developer" />
+            <img src="/portfolio-project.webp" alt="Cartoon Developer" />
           </div>
           <div className='project-name'>
             Portfolio
@@ -53,7 +53,7 @@ export default function Projects() {
         </div>
         <div className = "project-box">
           <div className = "project-image">
-            <img src="/sorting-project.png" alt="Cartoon Developer" />
+            <img src="/sorting-project.webp" alt="Cartoon Developer" />
           </div>
           <div className='project-name'>
             Sorting Visualization

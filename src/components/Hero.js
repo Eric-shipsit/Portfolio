@@ -18,7 +18,7 @@ export default function Hero() {
       </div>
       <div className='right-side'>
         <div className="image-container">
-          <img src="/dev-image.png" alt="Cartoon Developer" />
+          <img src="/dev-image.webp" alt="Cartoon Developer" />
         </div>
       </div>
     </section>
