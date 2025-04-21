@@ -1,3 +1,4 @@
+/* Main CSS Body */
 html, body {
   margin: 0;
   padding: 0;
@@ -24,6 +25,21 @@ main{
   display: flex;
   justify-content: flex-end;
   gap: 10px;
+}
+
+.toggle-button {
+  background: none;
+  border: 2px solid currentColor;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 1rem;
+  transition: all 0.3s ease;
+}
+
+.toggle-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* About Me Section - Terminal */
@@ -70,21 +86,6 @@ main{
     overflow: hidden;
     animation:
         cursor .4s step-end infinite alternate;
-}
-/* Nav Bar */
-.toggle-button {
-  background: none;
-  border: 2px solid currentColor;
-  border-radius: 30px;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  font-size: 1rem;
-  margin: 1rem;
-  transition: all 0.3s ease;
-}
-
-.toggle-button:hover {
-  background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Skills */
@@ -159,9 +160,9 @@ main{
   background-color: #2a2a2a;
   border-radius: 12px;
   display: flex;
-  flex-direction: column;     /* Stack children vertically */
-  align-items: center;        /* Center them horizontally */
-  justify-content: flex-start; /* Align children to the top */
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .project-name {
@@ -175,7 +176,7 @@ main{
 .project-image{
   width: 90%;
   height: 0;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio => 9 / 16 = 0.5625 */
+  padding-bottom: 56.25%;
   position: relative;
   overflow: hidden;
 }
@@ -195,8 +196,8 @@ main{
   width: 90%;
   
   display: flex;
-  flex-direction: row; /* default, can omit */
-  gap: 10px; /* optional spacing between each box */
+  flex-direction: row;
+  gap: 10px;
   flex-wrap: wrap
 }
 
@@ -204,8 +205,6 @@ main{
   display: flex;
   flex-direction: row;
   align-items: center;
-
-  /* margin: 10px; */
 
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -218,6 +217,176 @@ main{
   width: fit-content;
   font-size: 20px;
 }
+
+/* Hero Section */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+#introductions{
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+#my-name {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #f43f5e;
+}
+
+#my-location {
+  font-size: 1.5rem;
+  color: #9ca3af;
+  margin-bottom: 0.5rem;
+}
+
+#my-specialty {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.left-side{
+  flex: 2;
+  font-family: 'Inter', sans-serif;
+}
+
+.right-side {
+  flex: 1;
+  min-width: 300px;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+/* Resume Button */
+
+.resume-button {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #f87171;
+  color: white;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.resume-button:hover {
+  background-color: #ef4444;
+}
+
+/* Experience */
+
+.entry{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.date{
+    width: 25%;
+    text-align: right;
+    padding-right: 50px;
+    font-weight: bold;
+    color: #AAAAAA;
+    font-size: 0.9rem;
+}
+
+.info {
+    width: 75%;
+}
+
+.info .title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  margin: 0;
+}
+
+.location {
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: 2px;
+}
+
+
+.bullet {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 0.3rem;
+  font-size: 1rem;
+}
+
+.bullet-icon {
+  margin-right: 0.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.bullet-text {
+  flex: 1;
+  line-height: 1.5;
+}
+.link {
+  color: #91c8f1;
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #1d4ed8;
+  background-color: #e0ecff;
+  padding: 0 4px;
+  border-radius: 4px;
+}
+
+/* Contact */
+
+.email-link {
+  color: #00bcd4;
+  padding: 0px 5px;
+  margin: 0px;
+}
+
+body.dark .email-link {
+  color: #66e0ff;
+}
+
+.icon-bar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
 
 /* Dark/Light mode specific CSS */
 body.light-mode {
@@ -253,6 +422,16 @@ body.light-mode .project-box {
   color: #822E33;
 }
 
+body.dark-mode #my-specialty {
+  color: #f9fafb;
+}
+
+body.light-mode .link {
+  color: #5027b8;
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
 /* Middle view */
 @media (max-width: 1300px) {
   .project-box {
@@ -274,5 +453,27 @@ body.light-mode .project-box {
     width: 100%;
   }
   
+  .entry {
+    flex-direction: column;
+  }
+
+  .date,
+  .info {
+    width: 100%;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .left-side,
+  .right-side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
 }

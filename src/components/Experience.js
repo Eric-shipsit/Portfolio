@@ -1,6 +1,5 @@
 // src/components/Experience.js
 import React from 'react';
-import './Hero.css';
 
 export default function Experience() {
   return (
@@ -16,13 +15,36 @@ export default function Experience() {
           </div>
           <div className='info'>
             <div className = 'title'>
-              Software Developer Engineer
+              Software Developer Engineer @  <a href="https://www.amazon.jobs/" target="_blank" rel="noopener noreferrer" className = "link">Amazon</a>
             </div>
             <div className = 'location'>
               Seattle, Washington
             </div>
             <div className = 'description'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non iaculis neque. Curabitur ultrices tempus ipsum, id vestibulum risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam urna felis, vehicula at diam vel, euismod viverra orci. Nullam nulla ante, ultricies in efficitur et, ullamcorper sit amet metus. Nulla enim augue, tincidunt ut tincidunt consectetur, faucibus vitae orci. Integer et malesuada arcu. Ut pharetra velit ac urna tincidunt, sit amet consectetur diam elementum. Nullam rhoncus, libero ac pharetra lacinia, ante massa gravida est, convallis lacinia ipsum nibh et felis. 
+              <div className = 'bullet'>
+                <span className="bullet-icon">•</span>
+                <span className="bullet-text">
+                  Worked on the Alexa Registry team managing customer data and connected devices
+                </span>
+              </div>
+              <div className = 'bullet'>
+                <span className="bullet-icon">•</span>
+                <span className="bullet-text">
+                  Used <span className="highlight">AWS</span> tools for building, debugging, and monitoring cloud-based services
+                </span>
+              </div>
+              <div className = 'bullet'>
+                <span className="bullet-icon">•</span>
+                <span className="bullet-text">
+                  Gained professional experience working with a large <span className="highlight">Java</span>  codebase to build and maintain backend services for Alexa
+                </span>
+              </div>
+              <div className = 'bullet'>
+                <span className="bullet-icon">•</span>
+                <span className="bullet-text">
+                Created <span className="highlight">design docs</span>  for team projects that were reviewed, approved, and successfully implemented
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -32,13 +54,30 @@ export default function Experience() {
           </div>
           <div className='info'>
             <div className = 'title'>
-              Software Engineer Intern
+              Software Engineer Intern @ <a href="https://www.varmour.com" target="_blank" rel="noopener noreferrer" className = "link">vArmour</a>
             </div>
             <div className = 'location'>
               Los Altos, California
             </div>
             <div className = 'description'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non iaculis neque. Curabitur ultrices tempus ipsum, id vestibulum risus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam urna felis, vehicula at diam vel, euismod viverra orci. Nullam nulla ante, ultricies in efficitur et, ullamcorper sit amet metus. Nulla enim augue, tincidunt ut tincidunt consectetur, faucibus vitae orci. Integer et malesuada arcu. Ut pharetra velit ac urna tincidunt, sit amet consectetur diam elementum. Nullam rhoncus, libero ac pharetra lacinia, ante massa gravida est, convallis lacinia ipsum nibh et felis. 
+              <div className = 'bullet'>
+                <span className="bullet-icon">•</span>
+                <span className="bullet-text">
+                Independently planned the project roadmap and delivered all milestones on time
+                </span>
+              </div>
+              <div className = 'bullet'>
+                <span className="bullet-icon">•</span>
+                <span className="bullet-text">
+                Designed and implemented a full end-to-end test suite using <span className="highlight">Selenium</span>  for a new web application
+                </span>
+              </div>
+              <div className = 'bullet'>
+                <span className="bullet-icon">•</span>
+                <span className="bullet-text">
+                Used <span className="highlight">Docker</span>   to create a consistent and isolated environment for running and validating application tests
+                </span>
+              </div>
             </div>
           </div>
         </div>

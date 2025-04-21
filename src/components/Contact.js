@@ -2,7 +2,6 @@
 import React from 'react';
 import { useTheme } from '../ThemeContext';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import './Hero.css';
 
 export default function Contact() {
   const { darkMode } = useTheme();

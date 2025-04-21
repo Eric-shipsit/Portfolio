@@ -1,7 +1,6 @@
 // src/components/Hero.js
 import React from 'react';
 import { useTheme } from '../ThemeContext';
-import './Hero.css';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 
 export default function Hero() {

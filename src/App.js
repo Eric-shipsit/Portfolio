@@ -16,6 +16,11 @@ function App() {
           <Navbar/>
           <div className="responsive-div">
             <Hero/>
+            <div style={{width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+              <a href="/resume.pdf" download className="resume-button">
+                Download Resume
+              </a>
+            </div>
             <Experience/>
             <AboutMe/>
             <Projects/>
