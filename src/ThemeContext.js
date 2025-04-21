@@ -3,19 +3,17 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }) => {
-    // Load darkMode from localStorage, default to null (auto)
     const [darkMode, setDarkMode] = useState(() => {
       const stored = localStorage.getItem('darkMode');
-      const isDark = stored === null ? null : JSON.parse(stored);
-      document.body.className = isDark ? 'dark-mode' : 'light-mode';
-      return isDark; // converts "true"/"false" to boolean
+      return stored !== null ? JSON.parse(stored) : null;
     });
-  
+
     useEffect(() => {
-      // Save to localStorage anytime it changes
-      localStorage.setItem('darkMode', JSON.stringify(darkMode));
+      if (darkMode !== null) {
+        document.body.className = darkMode ? 'dark-mode' : 'light-mode';
+        localStorage.setItem('darkMode', JSON.stringify(darkMode));
+      }
     }, [darkMode]);
-  
     const toggleDarkMode = () => {
         setDarkMode(!darkMode);
     };
