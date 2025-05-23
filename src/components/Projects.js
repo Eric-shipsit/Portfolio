@@ -18,54 +18,6 @@ export default function Projects() {
       <div className="project-collection">
         <div className = "project-box">
           <div className = "project-image">
-            <img src="/email-project.webp" alt="Cartoon Developer" />
-          </div>
-          <div className='project-name'>
-            Emailer
-          </div>
-          <div className = "project-tech">
-          <TechUsed skill={"NodeJS"}/>
-          <TechUsed skill={"React"}/>
-          <TechUsed skill={"Docker"}/>
-          <TechUsed skill={"Cypress"}/>
-          <TechUsed skill={"JavaScript"}/>
-          </div>
-        </div>
-        <div className = "project-box">
-          <div className = "project-image">
-            <img src="/chatroom-project.webp" alt="Cartoon Developer" />
-          </div>
-          <div className='project-name'>
-            Chatroom
-          </div>
-          <div className = "project-tech">
-          <TechUsed skill={"ReactJS"}/>
-          <TechUsed skill={"Firebase"}/>
-          <TechUsed skill={"JavaScript"}/>
-          </div>
-        </div>
-        <div className = "project-box">
-          <div className = "project-image">
-            <img src="/portfolio-project.webp" alt="Cartoon Developer" />
-          </div>
-          <div className='project-name'>
-            Portfolio
-          </div>
-          <div className = "project-tech">
-            <TechUsed skill={"React"}/>
-            <TechUsed skill={"JavaScript"}/>
-          </div>
-          <div className="project-buttons">
-            <a href="https://github.com/Eric-shipsit/Portfolio" target="_blank" rel="noopener noreferrer">
-              <FaGithub style={iconStyle} />
-            </a>
-            <a href="https://ericl.netlify.app/" target="_blank" rel="noopener noreferrer">
-              <FaLink style={iconStyle} />
-            </a>
-          </div>
-        </div>
-        <div className = "project-box">
-          <div className = "project-image">
             <img src="/pocket-panda.png" alt="Pocket Panda" />
           </div>
           <div className='project-name'>
@@ -99,6 +51,54 @@ export default function Projects() {
             <a href="https://github.com/Eric-shipsit/BlipNotes" target="_blank" rel="noopener noreferrer">
               <FaGithub style={iconStyle} />
             </a>
+          </div>
+        </div>
+        <div className = "project-box">
+          <div className = "project-image">
+            <img src="/portfolio-project.webp" alt="Cartoon Developer" />
+          </div>
+          <div className='project-name'>
+            Portfolio
+          </div>
+          <div className = "project-tech">
+            <TechUsed skill={"React"}/>
+            <TechUsed skill={"JavaScript"}/>
+          </div>
+          <div className="project-buttons">
+            <a href="https://github.com/Eric-shipsit/Portfolio" target="_blank" rel="noopener noreferrer">
+              <FaGithub style={iconStyle} />
+            </a>
+            <a href="https://ericl.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <FaLink style={iconStyle} />
+            </a>
+          </div>
+        </div>
+        <div className = "project-box">
+          <div className = "project-image">
+            <img src="/email-project.webp" alt="Cartoon Developer" />
+          </div>
+          <div className='project-name'>
+            Emailer
+          </div>
+          <div className = "project-tech">
+          <TechUsed skill={"NodeJS"}/>
+          <TechUsed skill={"React"}/>
+          <TechUsed skill={"Docker"}/>
+          <TechUsed skill={"Cypress"}/>
+          <TechUsed skill={"JavaScript"}/>
+          </div>
+        </div>
+        <div className = "project-box">
+          <div className = "project-image">
+            <img src="/chatroom-project.webp" alt="Cartoon Developer" />
+          </div>
+          <div className='project-name'>
+            Chatroom
+          </div>
+          <div className = "project-tech">
+          <TechUsed skill={"ReactJS"}/>
+          <TechUsed skill={"Firebase"}/>
+          <TechUsed skill={"JavaScript"}/>
           </div>
         </div>
       </div>
