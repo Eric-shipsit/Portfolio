@@ -39,8 +39,8 @@ export default function Projects() {
             Chatroom
           </div>
           <div className = "project-tech">
-          <TechUsed skill={"NextJS"}/>
-          <TechUsed skill={"MongoDB"}/>
+          <TechUsed skill={"ReactJS"}/>
+          <TechUsed skill={"Firebase"}/>
           <TechUsed skill={"JavaScript"}/>
           </div>
         </div>
@@ -82,6 +82,22 @@ export default function Projects() {
             </a>
             <a href="https://pocket-panda-taupe.vercel.app/" target="_blank" rel="noopener noreferrer">
               <FaLink style={iconStyle} />
+            </a>
+          </div>
+        </div>
+        <div className = "project-box">
+          <div className = "project-image">
+            <img src="/BlipNotes.png" alt="BlipNotes" />
+          </div>
+          <div className='project-name'>
+            BlipNotes
+          </div>
+          <div className = "project-tech">
+          <TechUsed skill={"Python"}/>
+          </div>
+          <div className="project-buttons">
+            <a href="https://github.com/Eric-shipsit/BlipNotes" target="_blank" rel="noopener noreferrer">
+              <FaGithub style={iconStyle} />
             </a>
           </div>
         </div>

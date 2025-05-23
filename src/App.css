@@ -59,7 +59,7 @@ main{
   margin: 0 auto;
   padding-top: 15px;
   font-size: 30px;
-  height: 600px;
+  height: 630px;
   font-family: 'Monaco', 'Courier New';
   text-align: left;
   font-size: 17px;
@@ -68,7 +68,7 @@ main{
 
 #console {
   padding: 40px;
-  height: 600px;
+  height: 630px;
   margin: 0 auto;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
