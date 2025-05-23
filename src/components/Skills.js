@@ -27,6 +27,10 @@ export default function Skills() {
           <MySkill skill={"python"} name={"Python"} info={"General programming language"} darkMode={darkMode}/>
           <MySkill skill={"react"} name={"React"} info={"JavaScript library"} darkMode={darkMode}/>
           <MySkill skill={"selenium"} name={"Selenium"} info={"Test automation framework"} />
+          <MySkill skill={"mongodb"} name={"MongoDB"} info={"NoSQL Database"}/>
+          <MySkill skill={"nextjs"} name={"Nextjs"} info={"React framework"} />
+          <MySkill skill={"typescript"} name={"TypeScript"} info={"Javascript with type"} />
+          <MySkill skill={"tailwind"} name={"Tailwind"} info={"CSS framework"} />
         </div>
       </div>
     </section>

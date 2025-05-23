@@ -32,7 +32,7 @@ export default function AboutMe() {
                             <Input text="hobbies"/>
                             <Output text = {"[\"Chess\", \"Game Design\", \"Movies\", \"Cooking\", \"Puzzles\", \"Anime\", \"Music\"]"}/>
                             <Input text="learning"/>
-                            <Output text = {"[\"Mobile Development\", \"Swift\", \"PHP\", \"Angular\", \"NextJS\", \"Animations\"]"}/>
+                            <Output text = {"[\"Mobile Development\", \"Swift\", \"PHP\", \"Angular\", \"Animations\"]"}/>
                             <div style={{marginTop: '20px'}}>
                                 &gt;<div id = "end"></div><br/>
                             </div>

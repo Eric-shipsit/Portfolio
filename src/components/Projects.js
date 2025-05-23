@@ -2,8 +2,13 @@
 import React from 'react';
 import '../App.css';
 import TechUsed from './TechUsed';
+import { useTheme } from '../ThemeContext';
+import { FaGithub, FaLink } from 'react-icons/fa';
 
 export default function Projects() {
+  const { darkMode } = useTheme();
+  let iconStyle = { fontSize: '24px', marginRight: '16px', color: darkMode ? '#ccc' : '#008080' };
+
   return (
     <section className="project-section">
       <div>
@@ -47,21 +52,37 @@ export default function Projects() {
             Portfolio
           </div>
           <div className = "project-tech">
-          <TechUsed skill={"React"}/>
-          <TechUsed skill={"JavaScript"}/>
+            <TechUsed skill={"React"}/>
+            <TechUsed skill={"JavaScript"}/>
+          </div>
+          <div className="project-buttons">
+            <a href="https://github.com/Eric-shipsit/Portfolio" target="_blank" rel="noopener noreferrer">
+              <FaGithub style={iconStyle} />
+            </a>
+            <a href="https://ericl.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <FaLink style={iconStyle} />
+            </a>
           </div>
         </div>
         <div className = "project-box">
           <div className = "project-image">
-            <img src="/sorting-project.webp" alt="Cartoon Developer" />
+            <img src="/pocket-panda.png" alt="Pocket Panda" />
           </div>
           <div className='project-name'>
-            Sorting Visualization
+            Transaction Tracker
           </div>
           <div className = "project-tech">
-          <TechUsed skill={"HTML"}/>
-          <TechUsed skill={"CSS"}/>
-          <TechUsed skill={"JavaScript"}/>
+            <TechUsed skill={"NextJS"}/>
+            <TechUsed skill={"MongoDB"}/>
+            <TechUsed skill={"TypeScript"}/>
+          </div>
+          <div className="project-buttons">
+            <a href="https://github.com/Eric-shipsit/PocketPanda" target="_blank" rel="noopener noreferrer">
+              <FaGithub style={iconStyle} />
+            </a>
+            <a href="https://pocket-panda-taupe.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <FaLink style={iconStyle} />
+            </a>
           </div>
         </div>
       </div>
