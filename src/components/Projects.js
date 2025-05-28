@@ -75,7 +75,7 @@ export default function Projects() {
         </div>
         <div className = "project-box">
           <div className = "project-image">
-            <img src="/email-project.webp" alt="Cartoon Developer" />
+            <img src="/email-project.png" alt="Emailer" />
           </div>
           <div className='project-name'>
             Emailer
@@ -87,10 +87,16 @@ export default function Projects() {
           <TechUsed skill={"Cypress"}/>
           <TechUsed skill={"JavaScript"}/>
           </div>
+          
+          <div className="project-buttons">
+            <a href="https://github.com/Eric-shipsit/Emailer" target="_blank" rel="noopener noreferrer">
+              <FaGithub style={iconStyle} />
+            </a>
+          </div>
         </div>
         <div className = "project-box">
           <div className = "project-image">
-            <img src="/chatroom-project.webp" alt="Cartoon Developer" />
+            <img src="/chatroom-project.png" alt="Chatroom" />
           </div>
           <div className='project-name'>
             Chatroom
