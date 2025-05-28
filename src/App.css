@@ -30,6 +30,7 @@ main{
 .toggle-button {
   background: none;
   border: 2px solid currentColor;
+  border-color: #732828;
   border-radius: 30px;
   padding: 0.5rem 1rem;
   cursor: pointer;
@@ -412,6 +413,7 @@ body.dark-mode {
 
 body.dark-mode button {
   color: #f1f1f1;
+  border-color: #ffffff;
 }
 
 body.dark-mode #console {

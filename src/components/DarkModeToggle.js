@@ -7,10 +7,11 @@ export default function DarkModeToggle() {
     const { darkMode, toggleDarkMode } = useTheme();
     useEffect(() => {
         document.body.className = darkMode ? 'dark-mode' : 'light-mode';
-      }, [darkMode]);
+    }, [darkMode]);
+    
     return (
         <button className="toggle-button" onClick={toggleDarkMode}>
-        {darkMode ? '🌙 Dark' : '☀️ Light'}
+            {darkMode ? '🌙 Dark' : '☀️ Light'}
         </button>
     );
 }
