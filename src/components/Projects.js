@@ -96,15 +96,23 @@ export default function Projects() {
         </div>
         <div className = "project-box">
           <div className = "project-image">
-            <img src="/chatroom-project.png" alt="Chatroom" />
+            <img src="/gol-project.jpg" alt="GOL" />
           </div>
           <div className='project-name'>
-            Chatroom
+            Game of Life
           </div>
           <div className = "project-tech">
-          <TechUsed skill={"ReactJS"}/>
-          <TechUsed skill={"Firebase"}/>
-          <TechUsed skill={"JavaScript"}/>
+            <TechUsed skill={"JavaScript"}/>
+            <TechUsed skill={"HTML"}/>
+            <TechUsed skill={"CSS"}/>
+          </div>
+          <div className="project-buttons">
+            <a href="https://github.com/Eric-shipsit/GameOfLife" target="_blank" rel="noopener noreferrer">
+              <FaGithub style={iconStyle} />
+            </a>
+            <a href="https://eric-shipsit.github.io/GameOfLife/" target="_blank" rel="noopener noreferrer">
+              <FaLink style={iconStyle} />
+            </a>
           </div>
         </div>
       </div>
