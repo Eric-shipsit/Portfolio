@@ -17,6 +17,29 @@ export default function Projects() {
       </div>
       <div className="project-collection">
         <div className = "project-box">
+          <div className = "project-image" style={{
+            backgroundColor: "white",
+          }}>
+            <img src="/TLlogo.png" alt="Trace Labs" />
+          </div>
+          <div className='project-name'>
+            Trace Labs Company page
+          </div>
+          <div className = "project-tech">
+            <TechUsed skill={"NextJS"}/>
+            <TechUsed skill={"NeonDB"}/>
+            <TechUsed skill={"TypeScript"}/>
+          </div>
+          <div className="project-buttons">
+            <a href="https://github.com/Eric-shipsit/trace-labs" target="_blank" rel="noopener noreferrer">
+              <FaGithub style={iconStyle} />
+            </a>
+            <a href="https://trace-labs-blond.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <FaLink style={iconStyle} />
+            </a>
+          </div>
+        </div>
+        <div className = "project-box">
           <div className = "project-image">
             <img src="/pocket-panda.png" alt="Pocket Panda" />
           </div>
@@ -92,19 +115,6 @@ export default function Projects() {
             <a href="https://github.com/Eric-shipsit/Emailer" target="_blank" rel="noopener noreferrer">
               <FaGithub style={iconStyle} />
             </a>
-          </div>
-        </div>
-        <div className = "project-box">
-          <div className = "project-image">
-            <img src="/chatroom-project.png" alt="Chatroom" />
-          </div>
-          <div className='project-name'>
-            Chatroom
-          </div>
-          <div className = "project-tech">
-          <TechUsed skill={"ReactJS"}/>
-          <TechUsed skill={"Firebase"}/>
-          <TechUsed skill={"JavaScript"}/>
           </div>
         </div>
       </div>
