@@ -14,7 +14,7 @@ export default function Hero() {
         <div id = "my-location">
           <FaMapMarkerAlt style={iconStyle} />
           San Jose</div>
-        <div id = "my-specialty">a Fullstack Engineer</div>
+        <div id = "my-specialty">a Software Engineer</div>
       </div>
       <div className='right-side'>
         <div className="image-container">

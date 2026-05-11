@@ -11,6 +11,33 @@ export default function Experience() {
       <div>
         <div className='entry'>
           <div className = 'date'>
+            May 2025 - Present
+          </div>
+          <div className='info'>
+            <div className = 'title'>
+              Software Developer Engineer @  <a href="https://www.dataannotation.tech/" target="_blank" rel="noopener noreferrer" className = "link">Data Annotation</a>
+            </div>
+            <div className = 'location'>
+              Work From Home
+            </div>
+            <div className = 'description'>
+              <div className = 'bullet'>
+                <span className="bullet-icon">•</span>
+                <span className="bullet-text">
+                  Crafted edge-case prompts to test the AI model’s ability to retain context across turns
+                </span>
+              </div>
+              <div className = 'bullet'>
+                <span className="bullet-icon">•</span>
+                <span className="bullet-text">
+                  Evaluated AI model responses against quality guidelines, coompleting assigned tasks.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='entry'>
+          <div className = 'date'>
             Feb 2022 - Feb 2024
           </div>
           <div className='info'>

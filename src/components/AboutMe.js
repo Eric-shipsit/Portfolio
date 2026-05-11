@@ -22,7 +22,7 @@ export default function AboutMe() {
                             <Input text="location"/>
                             <Output text = '"San Jose, California"'/>
                             <Input text="specialty"/>
-                            <Output text = '"Fullstack Web Development"'/>
+                            <Output text = '"Frontend Development"'/>
                             <Input text="currently"/>
                             <Output text = '"Working on projects to improve my skill as a Web Developer"'/>
                             <Input text="education"/>
